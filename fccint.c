@@ -23,7 +23,7 @@ int findCeil(int arr[], int r, int l, int h)
     return (arr[l] >= r) ? l : -1;  
 }  
   
-// The main function that returns a random number 
+// The myRand function that returns a random number 
 // from arr[] according to distribution array  
 // defined by freq[]. n is size of arrays.  
 int myRand(int arr[], int freq[], int n)  
